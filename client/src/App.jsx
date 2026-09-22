@@ -19,7 +19,7 @@ const App = () => {
         <Route path='/' element={<Home/>}/>
         <Route path='/marketplace' element={<Marketplace/>}/>
         <Route path='/my-listings' element={<MyListings/>}/>
-        <Route path='/listing/:listingId' element={ListingDetails}/>
+        <Route path='/listing/:listingId' element={<ListingDetails/>}/>
         <Route path='/create-listing' element={<ManageListing/>}/>
         <Route path='/edit-listing/:id' element={<ManageListing/>}/>
         <Route path='/messages' element={<Messages/>}/>
