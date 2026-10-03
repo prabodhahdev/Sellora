@@ -70,7 +70,7 @@ const ChatBox = () => {
           <div className="flex-1 min-w-0">
             <h3 className="font-semibold text-lg truncate">{listing?.title}</h3>
             <p>{user.id === listing?.ownerId ? `Chatting with 
-              buyer ($(chat?.chatUser?.name || 'loading...'})` : `Chatting 
+              buyer (${chat?.chatUser?.name || 'loading...'})` : `Chatting 
               with seller (${chat?.ownerUser?.name || 'Loading...'})`}</p>
 
           </div>
