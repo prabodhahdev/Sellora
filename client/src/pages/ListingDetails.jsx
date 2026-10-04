@@ -273,7 +273,7 @@ const ListingDetails = () => {
       {/* Footer */}
 
       <div className='bg-white border-t border-gray-200 p-4 text-center mt-28'>
-        <p className='text-sm text-gray-500'> &copy; 2025 <span>Seller</span>.all rights reserved.</p>
+        <p className='text-sm text-gray-500'> &copy; 2026 <span>Seller</span>.all rights reserved.</p>
       </div>
     </div>
   ) : (
